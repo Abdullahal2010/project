@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font-awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- bootstrap  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- header starts  -->
+    <header>
+      <div class="logo-div">
+        <div class="logo">LO<span class="go">GO</span></div>
+      </div>
+
+      <nav class="navbar">
+        <ul class="navbar-ul">
+          <li class="navbar-li"><a href="#" class="navbar-a">Link 1</a></li>
+          <li class="navbar-li"><a href="#" class="navbar-a">Link 2</a></li>
+          <li class="navbar-li"><a href="#" class="navbar-a">Link 3</a></li>
+          <li class="navbar-li">
+            <a href="#" class="navbar-a navbar-a-dropdown"
+              >Link 4 <i class="fa-solid fa-chevron-down"></i
+            ></a>
+            <ul class="dropdown-ul">
+              <li class="dropdown-li">
+                <a href="#" class="dropdown-a">Link 5</a>
+              </li>
+              <li class="dropdown-li">
+                <a href="#" class="dropdown-a">Link 6</a>
+              </li>
+              <li class="dropdown-li">
+                <a href="#" class="dropdown-a" style="border: none"> Link 7</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="navbar-li">
+            <a href="#" class="navbar-login">Login</a>
+          </li>
+          or
+          <li class="navbar-li">
+            <a href="#" class="navbar-register">Register</a>
+          </li>
+
+          <li class="navbar-li">
+            <a href="#" class="navbar-icon-a"
+              ><i class="fa-solid fa-sun navbar-icon"></i
+            ></a>
+          </li>
+        </ul>
+        <button class="navbar-menu-btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+    <!-- header ends  -->
+
+    <main>
+      <div class="main-container">
+        <!-- contact starts  -->
+        <section id="contact-section" class="contact-section">
+          <div class="contact-title-div">
+            <h2 class="contact-title"><span class="go">Con</span>tact</h2>
+            <p class="contact-desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Fugit,Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium, recusandae! debitis!
+            </p>
+          </div>
+
+          <div class="contact-div-form">
+            <div class="contact-form-div">
+              <h3 class="contact-form-title">Contact form</h3>
+              <hr class="title-hr1" />
+              <hr class="title-hr2" />
+              <form class="contact-form">
+                <div class="input-div">
+                  <label for="name">
+                    <input
+                      type="text"
+                      name="name"
+                      id="name"
+                      required
+                      class="contact-input"
+                    />
+                    <span class="input-placeholder">Name: </span>
+                  </label>
+                </div>
+                <div class="input-div">
+                  <label for="email">
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      required
+                      class="contact-input"
+                    />
+                    <span id="eSpan" class="input-placeholder">Email: </span>
+                  </label>
+                </div>
+                <div class="input-div">
+                  <label for="subject">
+                    <input
+                      type="text"
+                      name="subject"
+                      id="subject"
+                      required
+                      class="contact-input"
+                    />
+                    <span class="input-placeholder">Subject: </span>
+                  </label>
+                </div>
+                <div class="input-div">
+                  <label for="description">
+                    <textarea
+                      name="description"
+                      id="description"
+                      required
+                      class="contact-input"
+                    ></textarea>
+                    <span class="input-placeholder">Description: </span>
+                  </label>
+                </div>
+                <button class="submitBtn" type="submit">Send message</button>
+              </form>
+            </div>
+            <div class="contact-side-div">
+              <div class="contact-side-info-div">
+                <h3 class="contact-side-title">About me</h3>
+                <hr class="title-hr1" />
+                <hr class="title-hr2" />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                  quidem ratione ipsam architecto. Ullam ea eos, vel culpa
+                  tempora accusamus, provident, magni ipsum illum magnam cumque
+                  debitis. Nulla blanditiis quod earum laudantium distinctio
+                  tenetur asperiores doloremque quaerat explicabo saepe magni
+                  provident, nobis porro beatae qui harum eos eligendi
+                  molestiae! Voluptatibus. Lorem ipsum, dolor sit amet
+                  consectetur adipisicing elit. Deleniti, autem.
+                  <br /><br />
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                  quidem ratione ipsam architecto. Ullam ea eos, vel culpa
+                  tempora accusamus, provident, magni ipsum illum magnam cumque
+                  debitis. Nulla blanditiis quod earum laudantium distinctio
+                  tenetur asperiores doloremque quaerat explicabo saepe magni
+                  provident, nobis porro beatae qui harum eos eligendi
+                  molestiae! Voluptatibus. Lorem ipsum, dolor sit amet
+                  consectetur adipisicing elit. Deleniti, autem.
+                  <br /><br />
+                  tenetur asperiores doloremque quaerat explicabo saepe magni
+                  provident, nobis porro beatae qui harum eos eligendi
+                  molestiae! Voluptatibus. Lorem ipsum, dolor sit amet
+                  consectetur adipisicing elit. Deleniti, autem. molestiae!
+                  Voluptatibus. Lorem ipsum, dolor sit amet consectetur
+                  adipisicing elit. Deleniti, autem.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="contact-cards-div">
+          <div class="contact-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-house"></i>
+            </div>
+            <div class="card-body">
+              <strong>Visit: </strong>
+              Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-house"></i>
+            </div>
+            <div class="card-body">
+              <strong>Visit: </strong>
+              Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="card-icon">
+              <i class="fa-solid fa-mobile-screen"></i>
+            </div>
+            <div class="card-body">
+              <strong>Phone: </strong>
+              01999999999 <br />
+              dolor sit amet. Lorem ipsum dolor sit amet.
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="card-icon">
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="card-body">
+              <strong>Email: </strong>
+              dummy@gmail.com<br />
+              ipsum dolor sit amet.
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="card-icon">
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="card-body">
+              <strong>Email: </strong>
+              dummy@gmail.com<br />
+              ipsum dolor sit amet.
+            </div>
+          </div>
+        </div>
+        <!-- contact ends  -->
+      </div>
+    </main>
+
+    <!-- bootstrap  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const email = document.querySelector("#email");
+      email.addEventListener("change", (e) => {
+        if (e.target.value === "") {
+          document.querySelector("#eSpan").classList.remove("activeSpan");
+        } else {
+          document.querySelector("#eSpan").classList.add("activeSpan");
+        }
+      });
+    </script>
+  </body>
+</html>
